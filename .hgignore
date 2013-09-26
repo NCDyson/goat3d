@@ -1,0 +1,12 @@
+\.o$
+\.d$
+\.swp$
+\.a$
+\.so\.
+\.dylib$
+\.opensdf$
+\.sdf$
+\.suo$
+x64/
+\.tlog$
+^tags$
