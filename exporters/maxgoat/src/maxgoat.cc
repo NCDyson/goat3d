@@ -611,8 +611,8 @@ void GoatExporter::process_mesh(goat3d *goat, goat3d_mesh *mesh, IGameObject *ma
 	maxobj->InitializeData();
 
 	int num_verts = maxmesh->GetNumberOfVerts();
+	int num_tverts = maxmesh->GetNumberOfTexVerts();
 	int num_faces = maxmesh->GetNumberOfFaces();
-	//assert(maxmesh->GetNumberOfTexVerts() == num_verts);
 
 	float *vertices = new float[num_verts * 3];
 	float *normals = new float[num_verts * 3];
